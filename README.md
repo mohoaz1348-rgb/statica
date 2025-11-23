@@ -112,4 +112,4 @@ Klc-файл можно открыть в программе и подредак
 
 ### Linux
 
-Добавить содержимое [файла](.Linux/xkb/symbols/ru) в файл /usr/share/X11/xkb/symbols/ru.
+Добавить содержимое [файла](./Linux/xkb/symbols/ru) в файл - /usr/share/X11/xkb/symbols/ru.
