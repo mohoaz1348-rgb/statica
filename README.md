@@ -111,3 +111,5 @@ Klc-файл можно открыть в программе и подредак
 ### Mac
 
 ### Linux
+
+Добавить содержимое [файла](.Linux/xkb/symbols/ru) в файл /usr/share/X11/xkb/symbols/ru.
