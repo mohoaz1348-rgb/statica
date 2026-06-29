@@ -121,6 +121,34 @@ Statica - это удобная раскладка для комфортного
 
 Для указательных пальцев с моей точки зрения более удобным для нажатия является нижний ряд, чем верхний. Поэтому внизу расположил более частые буквы по сравнению с верхним рядом.
 
+### Сравнение с другими раскладками при помощи ABA Analyzer
+
+ABA Analyzer это анализатор всех биграмм языка для раскладки, который проводит классификацию этих биграмм как по типу биграммы (чередование, ПНОП, ножницы и т.д. и т.п.), так и по усилию их набора. Подробнее про этот анализатор можно почитать [здесь](https://github.com/mohoaz1348-rgb/layout_bigrams_analyzer).
+
+![aba1](./img/aba1.png)
+
+- **PRS** – Pinky/Ring Scissors (Half and Full) - Ножницы на мизинцах
+- **FS(bad)** – Full Scissors (only Bad). Good Scissors (Index on buttom row) not included - Полные ножницы
+- **WS(bad)** – Wide Scissors (only Bad) - Полные широкие ножницы
+- **HS(bad)** – Half-Scissors (only Bad). For example `wd`, `dw`, `sc` on Qwerty - Полу-ножницы
+- **SFB(P)** – SFB on Pinkies - ПНОП-ы на мизинцах
+- **SFB** – All SFB (SFB(0u) included)) - ПНОП
+- **SFB(3u)** – For example `br`, `my` on Qwerty - ПНОП-ы расстояние между буквами которых составляет три размера клавиши
+- **LSB(IM)** – LSB on Index/Middle. Qwerty `nk` – not LSB on ANSI keyboard. Qwerty `ve` – LSB on Standart and Angle Mode - Растяжки указательный-средний палец
+- **LSB(IR)** – LSB on Index/ Ring. Qwerty `nl` – not LSB on ANSI keyboard. Qwerty `vw` – LSB on Standart and Angle Mode - Растяжки указательный-безымянный палец
+- **LSB(IP)** – LSBs that require simultaneous stretching of the little finger and index finger. For example `ba`, `ab` on Qwerty - Растяжки указательный-мизинец
+- **LSB(P)** - LSB Pinky/Ring + LSB Pinky/Middle. Растяжки мизинец-безымянный и мизинец-средний
+- **R(P-M)** – Rolls Pinky/Middle - Перекаты мизинец-средний палец
+- **R(R→P)** – Roll-out Ring→Pinky - Перекаты с безымянного пальца на мизинец
+- **Sort By** = sum(k*value)
+
+![aba2](./img/aba2.png)
+
+- `-3` - это самые неудобные биграммы
+- `3` - это самые удобные биграммы
+
+Видно, что Статика имеет малое количество неудобных биграмм и самое большое количество удобных перекатов.
+
 ## Мой опыт использования раскладки
 
 Первый вариант раскладки я начал осваивать 1 июня 2025 года. Вот он:
