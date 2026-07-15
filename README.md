@@ -10,7 +10,7 @@ Statica - это удобная раскладка для комфортного
 
 ![Statica20](./img/St20_Shift.png)
 
-### Statica-thumb-ergo
+### Statica-thumb-ergo:
 
 ```
 ь у а ж ю  г б р л х щ
